@@ -4,9 +4,10 @@
 ---------------------------------------------------*/
 
 @media (min-width: 1200px) {
-    .container {
+    /*.container {
         width: 1130px !important;
     }
+    */
 }
 
 #preloader {
