@@ -73,9 +73,8 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     width: 100%;
     overflow: hidden;
     position: absolute;
-    height: auto;       /* These two lines were the key. */
-    min-height: 100%;
-    margin: auto 0 auto;
+    margin: 0 auto;
+	padding: 20px;
 }
 h1 {
     font-size: 18px;
@@ -256,7 +255,7 @@ h2.resp-tab-title:last-child {
     background-color: #f4f4f4;
     float: left;
     width: 88%;
-    height: 580px;
+    height: 800px;
     clear: none;
     margin-left: 13px;
 }
@@ -579,7 +578,7 @@ h2.resp-accordion:hover {
 }
 
 .content_2 {
-    height: 580px;
+    height: 800px;
     -webkit-box-sizing:border-box;
     -moz-box-sizing:border-box;
     box-sizing:border-box;		
@@ -940,7 +939,7 @@ ul.about {
 ---------------------------------------------------*/
 
 .widget-profil{
-    height: 580px;   
+    height: 800px;   
     float: right; 
 }
 .widget-profil .circle {
